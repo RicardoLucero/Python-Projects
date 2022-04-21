@@ -4,9 +4,9 @@ from abc import ABC, abstractmethod
 class actionSports(ABC):
     def favoriteSport(self, time):#here is our regular method for the class 
         print("Your goal is: ", time)
-        @abstractmethod
-        def practice(self,time):#this function is asking for the argument but we wont know what kind o fdata it will be
-            pass
+    @abstractmethod
+    def practice(self,time):#this function is asking for the argument but we wont know what kind o fdata it will be
+        pass
 
 
 class skateboardSport(actionSports):#the child class that will define the method from the parent class
